@@ -12,6 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/guacamole/device.mk)
 
 # Inherit some common PixelExperience stuff.
+TARGET_BOOT_ANIMATION_RES := 1440
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
